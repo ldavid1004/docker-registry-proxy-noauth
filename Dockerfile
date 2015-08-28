@@ -1,4 +1,5 @@
-FROM nginx:1.7
+# FROM nginx:1.7
+FROM containersol/docker-registry-proxy:latest
 
 MAINTAINER Container Solutions <info@container-solutions.com>
 

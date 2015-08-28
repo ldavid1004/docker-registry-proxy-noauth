@@ -1,0 +1,14 @@
+docker-registry-proxy-noauth
+
+* description
+
+nginx docker registry proxy without auth - use only for dev
+
+based on https://hub.docker.com/r/containersol/docker-registry-proxy/~/dockerfile/
+
+* commands
+
+docker build -t docker.io/docker-registry-proxy .
+docker push docker.io/docker-registry-proxy
+docker pull docker.io/docker-registry-proxy
+
